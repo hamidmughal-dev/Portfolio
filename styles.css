@@ -347,6 +347,11 @@ img {
     border-radius: 2rem;
 }
 
+.feature-row-icon {
+    grid-template-columns: 260px minmax(0, 1fr);
+    align-items: stretch;
+}
+
 .feature-row.reverse {
     grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.95fr);
 }
@@ -369,6 +374,7 @@ img {
 .store-showcase {
     display: grid;
     height: 100%;
+    align-content: center;
     gap: 1rem;
     padding: 1.25rem;
     background: linear-gradient(180deg, rgba(12, 23, 39, 0.98), rgba(8, 17, 29, 0.98));
@@ -376,22 +382,23 @@ img {
 
 .store-icon-card {
     display: grid;
-    grid-template-columns: 96px minmax(0, 1fr);
     gap: 1rem;
-    align-items: center;
-    padding: 1rem;
+    justify-items: center;
+    text-align: center;
+    padding: 1.35rem 1rem;
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 1.25rem;
     background: rgba(255, 255, 255, 0.03);
 }
 
 .store-icon {
-    width: 96px;
-    height: 96px;
+    width: 132px;
+    height: 132px;
     min-height: 0;
     object-fit: cover;
-    border-radius: 22px;
+    border-radius: 30px;
     border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.24);
 }
 
 .feature-copy {
@@ -583,6 +590,7 @@ img {
 @media (max-width: 980px) {
     .hero,
     .feature-row,
+    .feature-row-icon,
     .feature-row.reverse,
     .timeline-item,
     .about-layout,
