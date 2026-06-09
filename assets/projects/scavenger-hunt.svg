@@ -1,0 +1,21 @@
+<svg width="800" height="520" viewBox="0 0 800 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="520" rx="32" fill="#0D1B2A"/>
+  <rect x="24" y="24" width="752" height="472" rx="24" fill="url(#paint0_linear)"/>
+  <circle cx="170" cy="160" r="88" fill="#F6BE61" fill-opacity="0.18"/>
+  <circle cx="610" cy="360" r="130" fill="#76D8FF" fill-opacity="0.18"/>
+  <rect x="120" y="122" width="300" height="220" rx="24" fill="#11263E" stroke="#ffffff" stroke-opacity="0.08"/>
+  <rect x="154" y="156" width="160" height="24" rx="12" fill="#ffffff" fill-opacity="0.12"/>
+  <rect x="154" y="198" width="220" height="18" rx="9" fill="#ffffff" fill-opacity="0.08"/>
+  <rect x="154" y="228" width="190" height="18" rx="9" fill="#ffffff" fill-opacity="0.08"/>
+  <path d="M530 154C566.451 154 596 183.549 596 220V234H572V220C572 196.804 553.196 178 530 178C506.804 178 488 196.804 488 220C488 243.196 506.804 262 530 262H614V286H530C493.549 286 464 256.451 464 220C464 183.549 493.549 154 530 154Z" fill="#F6BE61"/>
+  <circle cx="628" cy="278" r="44" fill="#76D8FF"/>
+  <circle cx="628" cy="278" r="20" fill="#0D1B2A"/>
+  <text x="72" y="430" fill="#ffffff" font-family="Space Grotesk, Arial" font-size="42" font-weight="700">Scavenger Hunt</text>
+  <text x="72" y="468" fill="#C9D5E4" font-family="Manrope, Arial" font-size="22">Hidden object puzzle with immersive search spaces</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="70" y1="54" x2="692" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10243A"/>
+      <stop offset="1" stop-color="#091522"/>
+    </linearGradient>
+  </defs>
+</svg>

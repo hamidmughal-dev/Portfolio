@@ -1,0 +1,20 @@
+<svg width="800" height="520" viewBox="0 0 800 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="520" rx="32" fill="#091523"/>
+  <rect x="24" y="24" width="752" height="472" rx="24" fill="url(#paint0_linear)"/>
+  <circle cx="150" cy="122" r="90" fill="#76D8FF" fill-opacity="0.18"/>
+  <circle cx="638" cy="372" r="136" fill="#F6BE61" fill-opacity="0.14"/>
+  <path d="M148 340L310 214L432 282L612 138" stroke="#76D8FF" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="332" y="202" width="96" height="148" rx="26" fill="#F6BE61"/>
+  <rect x="364" y="176" width="32" height="30" rx="10" fill="#F6BE61"/>
+  <path d="M380 228L350 286H380L356 332L412 266H382L404 228H380Z" fill="#0A1320"/>
+  <rect x="122" y="318" width="120" height="22" rx="11" fill="#ffffff" fill-opacity="0.08"/>
+  <rect x="548" y="116" width="120" height="22" rx="11" fill="#ffffff" fill-opacity="0.08"/>
+  <text x="72" y="430" fill="#ffffff" font-family="Space Grotesk, Arial" font-size="42" font-weight="700">Battery Run</text>
+  <text x="72" y="468" fill="#C9D5E4" font-family="Manrope, Arial" font-size="22">High-energy endless runner with flow and progression</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="80" y1="50" x2="702" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10263F"/>
+      <stop offset="1" stop-color="#09121D"/>
+    </linearGradient>
+  </defs>
+</svg>

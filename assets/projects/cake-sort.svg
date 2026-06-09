@@ -1,0 +1,24 @@
+<svg width="800" height="520" viewBox="0 0 800 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="520" rx="32" fill="#0F1624"/>
+  <rect x="24" y="24" width="752" height="472" rx="24" fill="url(#paint0_linear)"/>
+  <circle cx="154" cy="142" r="92" fill="#F6BE61" fill-opacity="0.18"/>
+  <circle cx="656" cy="334" r="132" fill="#F889BF" fill-opacity="0.14"/>
+  <rect x="126" y="158" width="132" height="184" rx="28" fill="#13263E"/>
+  <rect x="286" y="126" width="132" height="216" rx="28" fill="#13263E"/>
+  <rect x="446" y="174" width="132" height="168" rx="28" fill="#13263E"/>
+  <path d="M146 306H238V322C238 338.569 224.569 352 208 352H176C159.431 352 146 338.569 146 322V306Z" fill="#FF93C7"/>
+  <path d="M146 270H238V286C238 302.569 224.569 316 208 316H176C159.431 316 146 302.569 146 286V270Z" fill="#F6BE61"/>
+  <path d="M306 290H398V306C398 322.569 384.569 336 368 336H336C319.431 336 306 322.569 306 306V290Z" fill="#76D8FF"/>
+  <path d="M306 254H398V270C398 286.569 384.569 300 368 300H336C319.431 300 306 286.569 306 270V254Z" fill="#F6BE61"/>
+  <path d="M306 218H398V234C398 250.569 384.569 264 368 264H336C319.431 264 306 250.569 306 234V218Z" fill="#FF93C7"/>
+  <path d="M466 286H558V302C558 318.569 544.569 332 528 332H496C479.431 332 466 318.569 466 302V286Z" fill="#F6BE61"/>
+  <path d="M466 250H558V266C558 282.569 544.569 296 528 296H496C479.431 296 466 282.569 466 266V250Z" fill="#76D8FF"/>
+  <text x="72" y="430" fill="#ffffff" font-family="Space Grotesk, Arial" font-size="42" font-weight="700">Cake Sort</text>
+  <text x="72" y="468" fill="#C9D5E4" font-family="Manrope, Arial" font-size="22">Colorful sorting logic built for challenge and flow</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="80" y1="56" x2="700" y2="448" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14273E"/>
+      <stop offset="1" stop-color="#0B1420"/>
+    </linearGradient>
+  </defs>
+</svg>

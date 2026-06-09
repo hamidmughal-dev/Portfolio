@@ -1,0 +1,22 @@
+<svg width="800" height="520" viewBox="0 0 800 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="520" rx="32" fill="#101525"/>
+  <rect x="24" y="24" width="752" height="472" rx="24" fill="url(#paint0_linear)"/>
+  <circle cx="164" cy="370" r="110" fill="#76D8FF" fill-opacity="0.12"/>
+  <circle cx="620" cy="130" r="100" fill="#F889BF" fill-opacity="0.2"/>
+  <circle cx="370" cy="228" r="66" fill="#FFD9B6"/>
+  <path d="M308 344C308 301.026 342.026 267 385 267H421C463.974 267 498 301.026 498 344V366H308V344Z" fill="#F889BF"/>
+  <path d="M356 208C356 171.49 385.49 142 422 142C458.51 142 488 171.49 488 208V224H356V208Z" fill="#F6BE61"/>
+  <rect x="168" y="176" width="108" height="108" rx="26" fill="#11233A"/>
+  <rect x="530" y="188" width="114" height="114" rx="28" fill="#11233A"/>
+  <path d="M202 204H242V224H202V204Z" fill="#76D8FF"/>
+  <path d="M222 184V244" stroke="#76D8FF" stroke-width="18" stroke-linecap="round"/>
+  <path d="M566 228C566 205.909 583.909 188 606 188H608C630.091 188 648 205.909 648 228V238C648 260.091 630.091 278 608 278H606C583.909 278 566 260.091 566 238V228Z" fill="#F6BE61"/>
+  <text x="72" y="430" fill="#ffffff" font-family="Space Grotesk, Arial" font-size="42" font-weight="700">Doll Dressup</text>
+  <text x="72" y="468" fill="#C9D5E4" font-family="Manrope, Arial" font-size="22">Creative customization with playful styling systems</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="72" y1="52" x2="704" y2="458" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B2640"/>
+      <stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+  </defs>
+</svg>
