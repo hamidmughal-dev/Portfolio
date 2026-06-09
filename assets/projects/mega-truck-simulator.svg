@@ -1,0 +1,26 @@
+<svg width="800" height="520" viewBox="0 0 800 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="520" rx="32" fill="#0A1320"/>
+  <rect x="24" y="24" width="752" height="472" rx="24" fill="url(#paint0_linear)"/>
+  <circle cx="134" cy="110" r="92" fill="#F6BE61" fill-opacity="0.16"/>
+  <circle cx="652" cy="382" r="138" fill="#76D8FF" fill-opacity="0.14"/>
+  <path d="M148 332H578C610.033 332 636 358.967 636 391V396H132V348C132 339.163 139.163 332 148 332Z" fill="#13253A"/>
+  <path d="M310 220H462C485.306 220 507.175 231.134 520.835 249.959L580 331H278V252C278 234.327 292.327 220 310 220Z" fill="#F6BE61"/>
+  <rect x="316" y="248" width="90" height="52" rx="12" fill="#D8F4FF"/>
+  <rect x="420" y="248" width="86" height="52" rx="12" fill="#D8F4FF"/>
+  <rect x="208" y="262" width="92" height="70" rx="16" fill="#F889BF"/>
+  <circle cx="246" cy="392" r="42" fill="#0E1724"/>
+  <circle cx="246" cy="392" r="20" fill="#76D8FF"/>
+  <circle cx="554" cy="392" r="42" fill="#0E1724"/>
+  <circle cx="554" cy="392" r="20" fill="#76D8FF"/>
+  <path d="M110 308L234 262V332H110V308Z" fill="#102239"/>
+  <path d="M626 332H690C707.673 332 722 346.327 722 364V396H626V332Z" fill="#102239"/>
+  <path d="M586 174L626 214L586 254" stroke="#76D8FF" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="72" y="432" fill="#ffffff" font-family="Space Grotesk, Arial" font-size="42" font-weight="700">Mega Truck Simulator Games 3D</text>
+  <text x="72" y="470" fill="#C9D5E4" font-family="Manrope, Arial" font-size="22">Vehicle simulation, multi-mission gameplay, large-scale mobile reach</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="82" y1="52" x2="704" y2="458" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#122844"/>
+      <stop offset="1" stop-color="#09121D"/>
+    </linearGradient>
+  </defs>
+</svg>
