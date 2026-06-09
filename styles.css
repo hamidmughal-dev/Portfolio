@@ -446,10 +446,6 @@ img {
     border-radius: 1.6rem;
 }
 
-.project-panel-wide {
-    grid-column: span 2;
-}
-
 .project-image {
     width: 100%;
     aspect-ratio: 16 / 10;
@@ -582,7 +578,6 @@ img {
         grid-template-columns: 1fr 1fr;
     }
 
-    .project-panel-wide,
     .about-panel-large {
         grid-column: span 2;
         grid-row: auto;
@@ -632,7 +627,6 @@ img {
         grid-template-columns: 1fr;
     }
 
-    .project-panel-wide,
     .about-panel-large {
         grid-column: span 1;
     }
