@@ -202,9 +202,9 @@ img {
 
 .hero h1 {
     margin: 0;
-    max-width: 11ch;
-    font-size: clamp(3rem, 5.6vw, 5.2rem);
-    line-height: 0.98;
+    max-width: 12ch;
+    font-size: clamp(2.6rem, 4.8vw, 4.5rem);
+    line-height: 1.02;
     letter-spacing: -0.05em;
 }
 
@@ -218,9 +218,9 @@ img {
 }
 
 .hero-text {
-    max-width: 42rem;
+    max-width: 34rem;
     margin: 1.25rem 0 0;
-    font-size: 1.02rem;
+    font-size: 0.98rem;
 }
 
 .hero-actions {
@@ -329,7 +329,7 @@ img {
 
 .section-title h2 {
     margin: 0;
-    font-size: clamp(2.2rem, 4.8vw, 3.8rem);
+    font-size: clamp(2rem, 4.2vw, 3.2rem);
     line-height: 1.04;
     letter-spacing: -0.04em;
 }
@@ -408,7 +408,7 @@ img {
 
 .feature-copy h3 {
     margin: 0.65rem 0 0;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 .feature-copy p {
@@ -522,7 +522,7 @@ img {
 .about-main h2,
 .contact-copy h2 {
     margin: 0;
-    font-size: clamp(2rem, 4.2vw, 3.2rem);
+    font-size: clamp(1.8rem, 3.8vw, 2.8rem);
     line-height: 1.06;
     letter-spacing: -0.04em;
 }
@@ -641,8 +641,8 @@ img {
     }
 
     .hero h1 {
-        max-width: 10ch;
-        font-size: clamp(2.6rem, 12vw, 4rem);
+        max-width: 11ch;
+        font-size: clamp(2.2rem, 10vw, 3.2rem);
     }
 
     .hero-stats {
