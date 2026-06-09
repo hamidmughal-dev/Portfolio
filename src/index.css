@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.75rem;
+        /* Pure dark background matching Canva design */
+        --background: 0.05 0 0;
+        --foreground: 0.98 0 0;
+        --card: 0.08 0 0;
+        --card-foreground: 0.98 0 0;
+        --popover: 0.08 0 0;
+        --popover-foreground: 0.98 0 0;
+        --primary: 0.92 0 0;
+        --primary-foreground: 0.08 0 0;
+        --secondary: 0.15 0 0;
+        --secondary-foreground: 0.98 0 0;
+        --muted: 0.2 0 0;
+        --muted-foreground: 0.6 0 0;
+        --accent: 0.12 0 0;
+        --accent-foreground: 0.98 0 0;
+        --destructive: 0.65 0.25 25;
+        --destructive-foreground: 0.98 0 0;
+        --border: 0.25 0 0;
+        --input: 0.2 0 0;
+        --ring: 0.5 0 0;
+        --chart-1: 0.55 0.25 265;
+        --chart-2: 0.65 0.18 165;
+        --chart-3: 0.75 0.2 75;
+        --chart-4: 0.6 0.28 305;
+        --chart-5: 0.62 0.26 20;
+        
+        /* Mint green accent color for clean, professional look */
+        --accent-mint: 0.75 0.12 165;
+    }
+
+    .dark {
+        --background: 0.05 0 0;
+        --foreground: 0.98 0 0;
+        --card: 0.08 0 0;
+        --card-foreground: 0.98 0 0;
+        --popover: 0.08 0 0;
+        --popover-foreground: 0.98 0 0;
+        --primary: 0.92 0 0;
+        --primary-foreground: 0.08 0 0;
+        --secondary: 0.15 0 0;
+        --secondary-foreground: 0.98 0 0;
+        --muted: 0.2 0 0;
+        --muted-foreground: 0.6 0 0;
+        --accent: 0.12 0 0;
+        --accent-foreground: 0.98 0 0;
+        --destructive: 0.65 0.25 25;
+        --destructive-foreground: 0.98 0 0;
+        --border: 0.25 0 0;
+        --input: 0.2 0 0;
+        --ring: 0.5 0 0;
+        --chart-1: 0.55 0.25 265;
+        --chart-2: 0.65 0.18 165;
+        --chart-3: 0.75 0.2 75;
+        --chart-4: 0.6 0.28 305;
+        --chart-5: 0.62 0.26 20;
+        
+        --accent-mint: 0.75 0.12 165;
+    }
+
+    * {
+        @apply border-border;
+    }
+    
+    body {
+        @apply bg-background text-foreground;
+        font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+    }
+
+    html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 5rem;
+    }
+}
+
+@layer utilities {
+    /* Accent mint color utilities */
+    .text-accent-mint {
+        color: oklch(var(--accent-mint));
+    }
+    
+    .bg-accent-mint {
+        background-color: oklch(var(--accent-mint));
+    }
+    
+    .border-accent-mint {
+        border-color: oklch(var(--accent-mint));
+    }
+    
+    .fill-accent-mint {
+        fill: oklch(var(--accent-mint));
+    }
+
+    /* Subtle glow effect for hover states */
+    .shadow-glow-mint {
+        box-shadow: 
+            0 0 20px oklch(var(--accent-mint) / 0.2),
+            0 0 40px oklch(var(--accent-mint) / 0.1);
+    }
+}
+
+@layer components {
+    /* Smooth fade-in animation */
+    @keyframes fade-in {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .animate-fade-in {
+        animation: fade-in 0.8s ease-out;
+    }
+}
