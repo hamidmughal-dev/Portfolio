@@ -11,16 +11,15 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Oxanium:wght@500;600;700;800&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap"
             rel="stylesheet"
         />
         <link rel="stylesheet" href="./styles.css" />
     </head>
     <body>
         <div class="page-shell">
-            <div class="bg-orb bg-orb-left"></div>
-            <div class="bg-orb bg-orb-right"></div>
-            <div class="bg-grid"></div>
+            <div class="ambient ambient-one"></div>
+            <div class="ambient ambient-two"></div>
 
             <header class="site-header">
                 <a href="#top" class="brand">
@@ -46,20 +45,35 @@
             <main id="top">
                 <section class="hero section">
                     <div class="hero-copy">
-                        <p class="eyebrow">Open For International Opportunities</p>
-                        <h1>Building mobile games with gameplay clarity and production discipline.</h1>
+                        <p class="eyebrow">Open to international opportunities</p>
+                        <h1>Building mobile games with strong feel, clean systems, and production-ready execution.</h1>
                         <p class="hero-text">
                             Unity developer with 3+ years of experience across hyper-casual, puzzle, runner, and simulation games.
                         </p>
 
                         <div class="hero-actions">
-                            <a class="button button-primary" href="#projects">Explore Projects</a>
+                            <a class="button button-primary" href="#projects">View Portfolio</a>
                             <a class="button button-secondary" href="./assets/Hamid-Mughal-Resume.pdf" target="_blank" rel="noreferrer">
                                 Resume
                             </a>
                         </div>
 
-                        <div class="hero-stats">
+                        <div class="hero-badges">
+                            <span>Unity</span>
+                            <span>C#</span>
+                            <span>Firebase</span>
+                            <span>Playable Ads</span>
+                        </div>
+                    </div>
+
+                    <aside class="hero-panel reveal">
+                        <div class="panel-top">
+                            <span class="micro-label">Current Role</span>
+                            <h2>Game District</h2>
+                            <p>Hyper-casual, action simulation, and interactive playable ads.</p>
+                        </div>
+
+                        <div class="panel-stats">
                             <article>
                                 <strong>3+</strong>
                                 <span>Years</span>
@@ -70,59 +84,34 @@
                             </article>
                             <article>
                                 <strong>50M+</strong>
-                                <span>Reach</span>
+                                <span>Top Game Reach</span>
+                            </article>
+                            <article>
+                                <strong>Mobile</strong>
+                                <span>Production Focus</span>
                             </article>
                         </div>
-                    </div>
-
-                    <div class="hero-showcase reveal">
-                        <article class="hero-card hero-card-main">
-                            <span class="micro-label">Current Role</span>
-                            <h2>Game District</h2>
-                            <p>Hyper-casual, action simulation, and playable ad development.</p>
-                        </article>
-
-                        <div class="hero-mini-grid">
-                            <article class="hero-card accent-blue">
-                                <span class="micro-label">Stack</span>
-                                <strong>Unity / C#</strong>
-                            </article>
-                            <article class="hero-card accent-cyan">
-                                <span class="micro-label">Focus</span>
-                                <strong>Mobile Gameplay</strong>
-                            </article>
-                            <article class="hero-card accent-orange">
-                                <span class="micro-label">Tools</span>
-                                <strong>Firebase / GitHub</strong>
-                            </article>
-                            <article class="hero-card accent-green">
-                                <span class="micro-label">Strength</span>
-                                <strong>Rapid Prototyping</strong>
-                            </article>
-                        </div>
-                    </div>
+                    </aside>
                 </section>
 
                 <section id="projects" class="section reveal">
-                    <div class="section-head">
+                    <div class="section-header">
                         <div>
-                            <p class="eyebrow eyebrow-cyan">Featured Projects</p>
-                            <h2>Selected games in a stronger showcase layout.</h2>
+                            <p class="eyebrow eyebrow-cyan">Projects</p>
+                            <h2>Featured work with a cleaner, game-first presentation.</h2>
                         </div>
                     </div>
 
-                    <article class="spotlight-panel">
-                        <div class="spotlight-icon-wrap">
-                            <div class="spotlight-icon-frame">
-                                <img src="./assets/projects/truck-icon-source.jpg" alt="Mega Truck Simulator Games 3D app icon" class="spotlight-icon" />
-                            </div>
+                    <article class="spotlight-card">
+                        <div class="spotlight-visual spotlight-icon">
+                            <img src="./assets/projects/truck-icon-source.jpg" alt="Mega Truck Simulator Games 3D app icon" class="spotlight-icon-image" />
                         </div>
 
                         <div class="spotlight-copy">
-                            <span class="project-label">Published Simulation Game</span>
+                            <span class="project-type">Published Simulation Game</span>
                             <h3>Mega Truck Simulator Games 3D</h3>
-                            <p>Multi-vehicle driving simulator with mission-based gameplay and broad mobile audience appeal.</p>
-                            <div class="pill-row">
+                            <p>Multi-vehicle driving simulator with missions, accessible controls, and broad mobile reach.</p>
+                            <div class="chip-row">
                                 <span>50M+ downloads</span>
                                 <span>4.1 rating</span>
                                 <span>Google Play</span>
@@ -138,117 +127,117 @@
                         </div>
                     </article>
 
-                    <div class="project-showcase-grid">
-                        <article class="project-panel project-panel-wide">
-                            <img src="./assets/projects/scavenger-hunt-original.jpg" alt="Scavenger Hunt screenshot" class="project-image" />
-                            <div class="project-content">
-                                <span class="project-label">Puzzle / Hyper-Casual</span>
+                    <div class="games-grid">
+                        <article class="game-card game-card-wide">
+                            <img src="./assets/projects/scavenger-hunt-original.jpg" alt="Scavenger Hunt screenshot" class="game-thumb" />
+                            <div class="game-copy">
+                                <span class="project-type">Puzzle / Hyper-Casual</span>
                                 <h3>Scavenger Hunt</h3>
-                                <p>Hidden-object gameplay built around readable scenes and rewarding discovery.</p>
+                                <p>Readable scenes, layered interaction, and discovery-driven gameplay.</p>
                             </div>
                         </article>
 
-                        <article class="project-panel">
-                            <img src="./assets/projects/tap-it-away-original.jpg" alt="Tap It Away screenshot" class="project-image" />
-                            <div class="project-content">
-                                <span class="project-label">Puzzle</span>
+                        <article class="game-card">
+                            <img src="./assets/projects/tap-it-away-original.jpg" alt="Tap It Away screenshot" class="game-thumb" />
+                            <div class="game-copy">
+                                <span class="project-type">Puzzle</span>
                                 <h3>Tap It Away</h3>
-                                <p>Physics-based puzzle flow with clean progression.</p>
+                                <p>Physics-based puzzle systems with clean progression.</p>
                             </div>
                         </article>
 
-                        <article class="project-panel">
-                            <img src="./assets/projects/cake-sort-original.jpg" alt="Cake Sort screenshot" class="project-image" />
-                            <div class="project-content">
-                                <span class="project-label">Sorting</span>
+                        <article class="game-card">
+                            <img src="./assets/projects/cake-sort-original.jpg" alt="Cake Sort screenshot" class="game-thumb" />
+                            <div class="game-copy">
+                                <span class="project-type">Sorting</span>
                                 <h3>Cake Sort</h3>
                                 <p>Colorful sorting gameplay with escalating challenge.</p>
                             </div>
                         </article>
 
-                        <article class="project-panel">
-                            <img src="./assets/projects/doll-dressup-original.jpg" alt="Doll Dressup screenshot" class="project-image" />
-                            <div class="project-content">
-                                <span class="project-label">Dress-Up</span>
+                        <article class="game-card">
+                            <img src="./assets/projects/doll-dressup-original.jpg" alt="Doll Dressup screenshot" class="game-thumb" />
+                            <div class="game-copy">
+                                <span class="project-type">Dress-up</span>
                                 <h3>Doll Dressup</h3>
                                 <p>Customization-focused mobile game for playful creativity.</p>
                             </div>
                         </article>
 
-                        <article class="project-panel">
-                            <img src="./assets/projects/battery-run-original.jpg" alt="Battery Run screenshot" class="project-image" />
-                            <div class="project-content">
-                                <span class="project-label">Runner</span>
+                        <article class="game-card">
+                            <img src="./assets/projects/battery-run-original.jpg" alt="Battery Run screenshot" class="game-thumb" />
+                            <div class="game-copy">
+                                <span class="project-type">Runner</span>
                                 <h3>Battery Run</h3>
-                                <p>Fast-paced endless runner with responsive feel.</p>
+                                <p>Fast-paced endless runner built around flow and responsive feel.</p>
                             </div>
                         </article>
                     </div>
                 </section>
 
                 <section id="experience" class="section reveal">
-                    <div class="section-head">
+                    <div class="section-header">
                         <div>
                             <p class="eyebrow eyebrow-gold">Experience</p>
-                            <h2>Professional experience across prototyping and production.</h2>
+                            <h2>Studio work across prototyping, production, and live mobile delivery.</h2>
                         </div>
                     </div>
 
                     <div class="experience-grid">
-                        <article class="experience-panel accent-cyan">
-                            <span class="role-tag">Present</span>
+                        <article class="experience-card accent-cyan">
+                            <span class="role-time">Present</span>
                             <h3>Game Developer</h3>
-                            <p class="role-meta">Game District</p>
+                            <p class="role-company">Game District</p>
                             <p>Hyper-casual, action simulation, and playable ad development.</p>
                         </article>
 
-                        <article class="experience-panel accent-green">
-                            <span class="role-tag">Previous</span>
+                        <article class="experience-card accent-green">
+                            <span class="role-time">Previous</span>
                             <h3>Hyper-Casual Game Developer</h3>
-                            <p class="role-meta">Brilliant Game Studio</p>
+                            <p class="role-company">Brilliant Game Studio</p>
                             <p>Puzzle production, performance work, and ad integration.</p>
                         </article>
 
-                        <article class="experience-panel accent-orange">
-                            <span class="role-tag">Previous</span>
+                        <article class="experience-card accent-orange">
+                            <span class="role-time">Previous</span>
                             <h3>Jr. Hyper-Casual Game Developer</h3>
-                            <p class="role-meta">Brown Berry Game Studio</p>
+                            <p class="role-company">Brown Berry Game Studio</p>
                             <p>Rapid prototyping and gameplay idea validation.</p>
                         </article>
 
-                        <article class="experience-panel accent-blue">
-                            <span class="role-tag">Internship</span>
+                        <article class="experience-card accent-blue">
+                            <span class="role-time">Internship</span>
                             <h3>Unity 3D Developer Intern</h3>
-                            <p class="role-meta">Hack3 Game Studio</p>
+                            <p class="role-company">Hack3 Game Studio</p>
                             <p>Unity programming foundation and workflow discipline.</p>
                         </article>
                     </div>
                 </section>
 
                 <section id="about" class="section reveal">
-                    <div class="about-panels">
-                        <article class="about-panel about-panel-large">
+                    <div class="about-grid">
+                        <article class="about-card about-lead">
                             <p class="eyebrow eyebrow-cyan">About</p>
                             <h2>Gameplay first. Production ready.</h2>
                             <p>I build readable, responsive, and commercially practical mobile games with Unity.</p>
                         </article>
 
-                        <article class="about-panel">
+                        <article class="about-card">
                             <strong>Core Tools</strong>
                             <span>Unity, C#, Firebase, GitHub, analytics tools</span>
                         </article>
 
-                        <article class="about-panel">
+                        <article class="about-card">
                             <strong>Genres</strong>
                             <span>Hyper-casual, puzzle, runner, sorting, dress-up, hidden object, simulation</span>
                         </article>
 
-                        <article class="about-panel">
+                        <article class="about-card">
                             <strong>Education</strong>
                             <span>BS Computer Science, Lahore Garrison University</span>
                         </article>
 
-                        <article class="about-panel">
+                        <article class="about-card">
                             <strong>Final Year Project</strong>
                             <span>Multiplayer Shooting Game</span>
                         </article>
@@ -256,7 +245,7 @@
                 </section>
 
                 <section id="contact" class="section reveal">
-                    <div class="contact-panel">
+                    <div class="contact-card">
                         <div class="contact-copy">
                             <p class="eyebrow">Contact</p>
                             <h2>Available for remote roles and freelance work.</h2>
